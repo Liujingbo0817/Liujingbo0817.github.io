@@ -11,7 +11,8 @@
 eg:  
 	`var str = "good good study";`  
 	`console.log(str.indexOf("d",6));`  
-	   `打印结果为8.`
+	   `打印结果为8.`  
+
 ##2.lastindexOf()
 >跟indexOf()类似，在一个字符串中的指定位置从后向前搜索
 	
@@ -19,7 +20,8 @@ eg:
 eg:  
 `var str = "good good study";`  
  ` console.log(str.lastIndexOf("g"));`  
-	   `打印结果为5.`
+	   `打印结果为5.`  
+	   
 ##3.slice()
 >截取字符串的某一部分
 
@@ -38,7 +40,8 @@ eg:
 	   ` console.log(str.slice(0)); `  
 	   `打印结果分别为：day d`  
 	 ` day day up`  
-	  ` day day up`
+	  ` day day up`  
+	  
 ##4.substring()
 >截取字符串
 
@@ -54,7 +57,8 @@ eg:
 `var str = "day day up";`  
 `console.log(str.substring(0,5));`  
 `console.log(str);`  
-`打印结果为day d和 day day up`
+`打印结果为day d和 day day up`  
+
 ##5.split()
 >把字符串分割成字符串数组
 
@@ -65,7 +69,8 @@ eg:
 `var str = "1234554321";`  
 `console.log(str.split("4"));`  
 `console.log(str.split("4",2));`  
-`打印结果为["123", "55", "321"]和["123", "55"]`
+`打印结果为["123", "55", "321"]和["123", "55"]`  
+
 ##6.charAt()
 >返回下标位置所对应的字符
 
@@ -74,7 +79,8 @@ eg:
 eg:  
 `var str = "nihaoma";`  
 `console.log(str.charAt(0));`  
-`打印结果为n`
+`打印结果为n`  
+
 ##7.charCodeAt()
 >返回下标位置对应字符的Unicode编码  
 eg:  
@@ -91,7 +97,8 @@ eg:
 eg:  
 `var str = "你可爱吗";`  
 `console.log(str.replace("吗","呀"));`  
-`打印结果为”你可爱呀”`
+`打印结果为”你可爱呀”`  
+
 ##9.toLowerCase()
 >把原字符串转换为小写
 
@@ -99,7 +106,8 @@ eg:
 eg:  
 `var str = "YEAH";`  
 `console.log(str.toLowerCase());`  
-`打印结果为yeah`
+`打印结果为yeah`  
+
 ##10.toUpperCase()
 >把原字符串转换为大写
 
@@ -107,7 +115,8 @@ eg:
 eg:  
 `var str = "yeah";`  
 `console.log(str.toUpperCase());`  
-`打印结果为YEAH`
+`打印结果为YEAH`  
+
 ##11.trim()
 >去掉字符串前后的空格  
 eg:  
