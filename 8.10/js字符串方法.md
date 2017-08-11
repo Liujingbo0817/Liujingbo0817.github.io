@@ -1,6 +1,6 @@
 #js字符串方法
 ***
-##1.indexOf()
+## 1.indexOf()
 >查找字符串出现的位置  返回该字符串的下标  
 如果查询的字符在对应的字符串里找不到，则返回-1
 
@@ -13,7 +13,7 @@ eg:
 	`console.log(str.indexOf("d",6));`  
 	   `打印结果为8.`  
 
-##2.lastindexOf()
+## 2.lastindexOf()
 >跟indexOf()类似，在一个字符串中的指定位置从后向前搜索
 	
 	整体查找的话，无论是从前往后找，还是从后往前找，返回的都是第一个字母出现的下标
@@ -22,7 +22,7 @@ eg:
  ` console.log(str.lastIndexOf("g"));`  
 	   `打印结果为5.`  
 	   
-##3.slice()
+## 3.slice()
 >截取字符串的某一部分
 
 	有两个参数
@@ -42,7 +42,7 @@ eg:
 	 ` day day up`  
 	  ` day day up`  
 	  
-##4.substring()
+## 4.substring()
 >截取字符串
 
 	有两个参数:
@@ -59,7 +59,7 @@ eg:
 `console.log(str);`  
 `打印结果为day d和 day day up`  
 
-##5.split()
+## 5.split()
 >把字符串分割成字符串数组
 
 	如果没有参数，那原字符串就是转化数组的唯一一项内容
@@ -71,7 +71,7 @@ eg:
 `console.log(str.split("4",2));`  
 `打印结果为["123", "55", "321"]和["123", "55"]`  
 
-##6.charAt()
+## 6.charAt()
 >返回下标位置所对应的字符
 
 	参数：1个，表示要获取字符的下标  
@@ -81,13 +81,13 @@ eg:
 `console.log(str.charAt(0));`  
 `打印结果为n`  
 
-##7.charCodeAt()
+## 7.charCodeAt()
 >返回下标位置对应字符的Unicode编码  
 eg:  
 `console.log(str.charCodeAt(0));`  
 `打印结果为110`
 
-##8.replace()
+## 8.replace()
 >字符串替换
 
 	两个参数:
@@ -99,7 +99,7 @@ eg:
 `console.log(str.replace("吗","呀"));`  
 `打印结果为”你可爱呀”`  
 
-##9.toLowerCase()
+## 9.toLowerCase()
 >把原字符串转换为小写
 
 	不会改变原字符串
@@ -108,7 +108,7 @@ eg:
 `console.log(str.toLowerCase());`  
 `打印结果为yeah`  
 
-##10.toUpperCase()
+## 10.toUpperCase()
 >把原字符串转换为大写
 
 	不会改变原字符串
@@ -117,7 +117,7 @@ eg:
 `console.log(str.toUpperCase());`  
 `打印结果为YEAH`  
 
-##11.trim()
+## 11.trim()
 >去掉字符串前后的空格  
 eg:  
 `var str = " hello world " ;`  
