@@ -7,7 +7,7 @@
 `} `  
 `fn();` 	 ** this -->  window **  
 //自执行函数  
-`(function () {console.log(this)})();` ** //this --> window**
+`(function () {console.log(this)})();` ** this --> window **
 > 作为普通函数调用，这个时候this总是指向全局对象（在浏览器中即window对象）
 
 ### 2.通过方法调用  
@@ -40,7 +40,8 @@
 `function Person (name) {`  
 `console.log(this)`   **this -->  window**  
 ` this.name = name;`  
-`}`  
+`}`    
+
 `Person('inwe')`  
 
 //使用new  
@@ -50,7 +51,8 @@
 `self = this`  
 `}`  
 ` var people = new Person('iwen')`  
-`console.log(self === people)` **true**  
+
+`console.log(self === people)` ** true **  
 > 这里new改变了this指向，将this由window指向Person的实例化对象people    
 > 不使用new指向window  
 
