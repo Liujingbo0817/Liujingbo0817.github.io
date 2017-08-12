@@ -5,7 +5,7 @@
 `function fn(){`    
 	`console.log(this);`  
 `} `  
-`fn();` 	 **//this -->  window**  
+`fn();` 	 ** this -->  window **  
 //自执行函数  
 `(function () {console.log(this)})();` ** //this --> window**
 > 作为普通函数调用，这个时候this总是指向全局对象（在浏览器中即window对象）
@@ -18,13 +18,13 @@
 		`console.log(this)`  
 	`}`  
 `}`  
-`person.run()`  **//this --> person**  
+`person.run()`  ** this --> person **  
 
 // 事件绑定   
 
 `var btn = document.getElementById("button")`  
 `btn.onclick = function () {`  
-    `console.log(this)` **// this --> btn**  
+    `console.log(this)` ** this --> btn**  
 `}`  
 
 // 事件监听  
