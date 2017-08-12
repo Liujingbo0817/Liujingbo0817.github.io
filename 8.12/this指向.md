@@ -87,9 +87,13 @@
 ### 5.通过数组下标调用  
 `function func(){`  
 ` console.log(this);`  
-`}`  
-`var arr = [func,1,2,3];`  
-` arr[0]();`  **// this --> arr**  
+
+`}`    
+
+`var arr = [func,1,2,3];`    
+
+` arr[0]();`  ** // this --> arr **    
+
 > 函数作为数组的一个元素，通过数组下标调用的：this指向这个数组  
 
 ### 6.回调函数（ setInterval setTimeout 等）
